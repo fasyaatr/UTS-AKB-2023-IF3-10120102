@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="UTS AKB IF3 10120102"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.10120102UTS">
+        <activity
+            android:name=".ActivityHome"
+            android:exported="false"
+            android:label="Home Screen"
+            android:theme="@style/apptheme.NoActionBar"/>
+        <activity
+            android:name=".ui.daily.EditDiaryActivity"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar"/>
+        <activity
+            android:name=".ui.profile.FragmentProfile"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar"/>
+        <activity
+            android:name=".ui.daily.CreateDiaryActivity"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar"/>
+        <activity
+            android:name=".ActivityWelcomeDialog"
+            android:exported="false"
+            android:theme="@style/apptheme.NoActionBar"/>
+        <activity
+            android:name=".ActivitySplashScreen"
+            android:exported="true"
+            android:theme="@style/apptheme.NoActionBar">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

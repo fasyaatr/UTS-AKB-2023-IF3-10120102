@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="title_daily" type="id" />
+    <item name="cardDate" type="id" />
+    <item name="cardMonth" type="id" />
+    <item name="cardYear" type="id" />
+    <item name="desc_daily" type="id" />
+    <item name="options" type="id" />
+</resources>
